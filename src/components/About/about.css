@@ -1,0 +1,20 @@
+.about_container {
+    margin: 2%;
+}
+
+.about_item {
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+    .a_text {
+        width: 80%;
+        font-size: 24px;
+    }
+    .about_item {
+        font-size: 24px;
+    }
+}

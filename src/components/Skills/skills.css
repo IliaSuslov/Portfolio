@@ -1,0 +1,64 @@
+.card_container {
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.item_left {
+    vertical-align: top;
+    width: 30%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.item_right {
+    vertical-align: top;
+    width: 30%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.item_center {
+    width: 40%;
+    padding: 1%;
+    display: inline-block;
+    border-left: 1px solid #7510F7;
+    border-right: 1px solid #7510F7;
+}
+
+.s_header {
+    width: 25%;
+    margin: 0 auto;
+    border-bottom: 1px solid #7510F7;
+    margin-bottom: 3%;
+}
+
+.sm_header {
+    width: 45%;
+    margin: 0 auto;
+    border-bottom: 1px solid #7510F7;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+    p {
+        font-size: 24px;
+        margin: 0 auto;
+    }
+    .s_header {
+        width: 50%;
+    }
+    .item_left {
+        width: 80%;
+        border-bottom: 1px solid #7510F7;
+        margin: 0 auto;
+    }
+    .item_center {
+        width: 80%;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid #7510F7;
+    }
+    .item_right {
+        width: 80%;
+    }
+}

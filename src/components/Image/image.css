@@ -1,0 +1,28 @@
+     .body {
+       height: 60.5rem;
+       grid-area: h;
+       background: black;
+       border-bottom: 1px solid #7510F7;
+     }
+
+     .text {
+       text-transform: uppercase;
+       padding-top: 390px;
+       font-size: 56px;
+       text-align: center;
+       color: white;
+     }
+
+     .name {
+       width: 20%;
+       margin: 0 auto;
+       border-bottom: 1px solid white;
+       border-color: #7510F7;
+     }
+
+     @media only screen and (max-width: 800px) {
+       .name {
+         text-align: center;
+         width: 100%;
+       }
+     }

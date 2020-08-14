@@ -1,0 +1,25 @@
+.sprojects h1 {
+  text-align: center;
+}
+
+.sprojects {
+  /* text-align: center; */
+}
+
+/* .app-wrapper {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 1fr 60px;
+  grid-template-areas: "h h h h h" "ccccc" "ccccc";
+} */
+
+.frameworks {
+  /* background-color: #7510F7; */
+  display: inline-table;
+}
+
+.weather {
+  background-color: lightgray;
+  display: inline-table;
+}

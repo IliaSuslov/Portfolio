@@ -1,0 +1,32 @@
+.button .big_btn button {
+    width: 50%;
+}
+
+.button {
+    display: block;
+    background-color: #bbb;
+}
+
+.button button {
+    width: 25%;
+    height: 60px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+div .exp {
+    width: 25%;
+    height: 60px;
+    font-size: 30px;
+    background-color: orange;
+    color: white;
+}
+
+div .eraze {
+    width: 25%;
+    height: 60px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+}

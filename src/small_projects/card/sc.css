@@ -1,0 +1,74 @@
+.small_card {
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 1px solid black;
+    box-shadow: rgb(10, 248, 208) 3px 5px 10px;
+    width: 20%;
+    margin: 1%;
+    float: left;
+}
+
+@media only screen and ( max-width: 1024px) {
+    .small_card {
+        width: 98%;
+    }
+}
+
+@media only screen and ( max-width: 375px) {
+    .small_card {
+        width: 98%;
+    }
+}
+
+.user_data {
+    width: 96%;
+    display: flex;
+}
+
+.top_text {
+    margin-left: 3%;
+    margin-top: 2%;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.btn {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.card_info {
+    width: 96%;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.btm_text {
+    padding: 3%;
+    font-size: 14px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border: 1px solid rgb(229, 229, 229);
+}
+
+.icn_line {
+    margin-top: 3%;
+    float: left;
+}
+
+.icn {
+    font-size: 1.5rem;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+.icn :hover {
+    color: cyan;
+}

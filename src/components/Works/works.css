@@ -1,0 +1,22 @@
+.works_container {
+    margin: 0 auto;
+    width: 81%;
+}
+
+.works_item {
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.card {
+    max-width: 15rem;
+    margin: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        max-width: 20rem;
+    }
+}
