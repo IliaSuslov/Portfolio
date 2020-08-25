@@ -1,27 +1,17 @@
-import React, { Fragment, useRef } from 'react';
-import { Camera } from 'react-cam';
+import React from 'react';
+import Camera from 'react-html5-camera-photo';
+import 'react-html5-camera-photo/build/css/index.css';
 
-function capture(imgSrc) {
-    console.log(imgSrc);
-}
+function CameraWeb(props) {
+    function handleTakePhoto(dataUri) {
+        // Do stuff with the photo...
+        alert("takePhoto");
+    }
 
-const CameraWeb = () => {
-    const cam = useRef(null);
     return (
-        <Fragment>
-            <Camera
-                showFocus={true}
-                front={false}
-                capture={capture}
-                ref={cam}
-                width="auto"
-                height="auto"
-                // focusWidth="10%"
-                // focusHeight="10%"
-                btnColor="white"
-            />
-            <button onClick={img => cam.current.capture(img)}>Take image</button>
-        </Fragment>
+        <Camera
+            onTakePhoto={(dataUri) => { handleTakePhoto(dataUri); }}
+        />
     );
-};
+}
 export default CameraWeb

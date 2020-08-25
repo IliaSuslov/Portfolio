@@ -24,6 +24,7 @@
     "react-bootstrap": "^1.0.0-beta.16",
     "react-cam": "^1.1.11",
     "react-dom": "^16.13.1",
+    "react-html5-camera-photo": "^1.5.4",
     "react-parallax": "^3.0.0",
     "react-particles-js": "^2.7.0",
     "react-router": "^5.2.0",
