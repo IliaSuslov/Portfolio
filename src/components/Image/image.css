@@ -16,17 +16,17 @@
      .name {
        width: 20%;
        margin: 0 auto;
-       border-bottom: 1px solid white;
-       border-color: #7510F7;
+       border-bottom: 1px solid #7510F7;
      }
 
      @media only screen and (max-width: 800px) {
        .name {
          margin-top: -50%;
          text-align: center;
-         width: 100%;
+         width: 50%;
        }
        .body {
+         border-bottom: 1px solid #7510F7;
          height: 100%;
          padding-bottom: 70%;
        }
