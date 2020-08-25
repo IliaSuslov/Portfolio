@@ -9,14 +9,12 @@ function CameraWeb() {
     return (
         <div>
             <label>
+
                 <input
-                    style={{ display: 'none' }}
                     type='file'
                     accept="image/*"
                     capture="environment"
-                    onChange={handleImageChange}
-                />
-                <button>take photo</button>
+                    onChange={handleImageChange} />
             </label>
         </div>
     );
