@@ -4,6 +4,7 @@ import Navbar from './header/header';
 import FrameWorks from './card/data';
 import ApiTest from './api_test/api_test';
 import Calculator from './calculator/calculator';
+import Camera from './camera/camera';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <FrameWorks />
       <ApiTest />
       <Calculator />
+      <Camera/>
     </div>
   );
 }
