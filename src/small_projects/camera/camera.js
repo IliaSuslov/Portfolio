@@ -9,7 +9,6 @@ function CameraWeb() {
     return (
         <div>
             <label>
-
                 <input
                     type='file'
                     accept="image/*"
