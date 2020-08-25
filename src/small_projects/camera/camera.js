@@ -1,8 +1,24 @@
 import React from 'react';
 
-function CameraWeb(props) {
+function CameraWeb() {
+    const handleImageChange = (event) => {
+        this.setState({
+            image: URL.createObjectURL(event.target.files[0])
+        })
+    }
     return (
-        <input type="file" accept="image/*" capture="environment"/>
+        <div>
+            <label>
+                <input
+                    style={{ display: 'none' }}
+                    type='file'
+                    accept="image/*"
+                    capture="environment"
+                    onChange={handleImageChange}
+                />
+                <button>take photo</button>
+            </label>
+        </div>
     );
 }
 export default CameraWeb
