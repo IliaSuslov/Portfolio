@@ -14,10 +14,10 @@ const CameraWeb = () => {
                 front={false}
                 capture={capture}
                 ref={cam}
-                width="80%"
+                width="100%"
                 height="auto"
-                focusWidth="80%"
-                focusHeight="60%"
+                focusWidth="100%"
+                focusHeight="100%"
                 btnColor="white"
             />
             <button onClick={img => cam.current.capture(img)}>Take image</button>
