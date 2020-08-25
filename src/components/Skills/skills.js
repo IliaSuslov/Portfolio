@@ -7,7 +7,6 @@ const SkillsList = () => {
         { id: "1", skill: "Sketch/Figma/Zeplin" },
         { id: "2", skill: "Bootstrap 4" },
         { id: "3", skill: "Material Design Kits" },
-        { id: "4", skill: "Ionic" },
     ]
     const devskills = [
         { id: "1", skill: "HTML" },
@@ -15,6 +14,7 @@ const SkillsList = () => {
         { id: "3", skill: "JavaScript" },
         { id: "4", skill: "ReactJS" },
         { id: "5", skill: "React Native" },
+        { id: "6", skill: "Ionic" },
     ]
     const statemanagers = [
         { id: "1", skill: "Redux" },
