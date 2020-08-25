@@ -22,10 +22,11 @@
 
      @media only screen and (max-width: 800px) {
        .name {
+         margin-top: -50%;
          text-align: center;
          width: 100%;
        }
-       .body{
+       .body {
          height: 100%;
          padding-bottom: 70%;
        }
