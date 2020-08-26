@@ -1,8 +1,8 @@
      .body {
        grid-area: h;
+       height: 100vh;
        background: black;
        border-bottom: 1px solid #7510F7;
-       padding-bottom: 10%;
      }
 
      .text {
@@ -19,15 +19,13 @@
        border-bottom: 1px solid #7510F7;
      }
 
-     @media only screen and (max-width: 800px) {
+     @media only screen and (max-width: 1600px) {
        .name {
          text-align: center;
          width: 50%;
        }
        .body {
          border-bottom: 1px solid #7510F7;
-         height: 100%;
-         padding-top: 50%;
-         padding-bottom: 90%;
+         padding-top: 40%;
        }
      }
