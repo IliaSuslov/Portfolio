@@ -1,20 +1,24 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import MobileNB from './MobileNB'
 import DesktopNB from './DesktopNB'
 import "./nav.css";
 
-// useEffect(() => {
+const useViewport = () => {
+    const [width, setWidth] = useState(window.innerWidth);
 
-// }, [window.innerWidth])
+    useEffect(() => {
+        const handleWindowResize = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleWindowResize);
+        return () => window.removeEventListener("resize", handleWindowResize);
+    }, []);
+    return { width };
+}
 
 const Navigation = () => {
-    let width = window.innerWidth;
-    if (width < 800) {
-        return <MobileNB />
-    } else {
-        return (
-            <DesktopNB />
-        );
-    }
+
+    const { width } = useViewport();
+    const breakpoint = 1100;
+
+    return width < breakpoint ? <MobileNB /> : <DesktopNB />;
 }
 export default Navigation;
