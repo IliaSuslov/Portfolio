@@ -14,13 +14,12 @@
       color: #7510F7;
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1600px) {
       .icon_bar {
           width: 100%;
           text-align: center;
       }
       .logo {
           font-size: 24px;
-          padding: 10%;
       }
   }
