@@ -1,54 +1,74 @@
- .nav {
-     height: 30%;
-     width: 8%;
-     position: fixed;
-     z-index: 1;
-     top: 0;
-     right: 0;
-     background-color: #111;
-     overflow-x: hidden;
-     padding-top: 20px;
- }
+header {
+    height: 30%;
+    width: 8%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
 
- .nav a {
-     padding: 6px 8px 6px 16px;
-     text-decoration: none;
-     font-size: 20px;
-     color: #818181;
-     display: block;
-     border: none;
-     background: none;
-     width: 100%;
-     text-align: left;
-     cursor: pointer;
-     outline: none;
- }
+.mobile_nav {
+    background-color: #7510F7;
+    position: absolute;
+}
 
- .nav a:hover {
-     background: #7510F7;
-     text-decoration: none;
-     color: white;
- }
+.nav_link {
+    font-weight: 800;
+    font-size: 24px;
+    color: white !important;
+}
 
- .icon {
-     display: none;
- }
+.Nav {
+    align-items: center;
+}
 
- @media screen and (max-width: 800px) {
-     .nav {
-         width: 100%;
-         background-color: #7510F7;
-         max-height: 8%;
-     }
-     .nav a {
-         display: none;
-     }
-     .nav button {
-         display: table-cell;
-         margin-left: 85%;
-         font-size: 24px;
-         background: none;
-         border: none;
-         margin-top: -5%;
-     }
- }
+.Nav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.Nav a:hover {
+    background: #7510F7;
+    text-decoration: none;
+    color: white;
+}
+
+.Burger {
+    display: none;
+    grid-area: burger;
+    margin: 0 20px 0 0;
+    padding: 0;
+    justify-self: end;
+    font-size: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.1s;
+}
+
+.Burger:active {
+    transform: scale(1.2);
+}
+
+@media (max-width: 1550px) {
+    .Nav {
+        padding: 30px 0 30px;
+        background: rgba(40, 44, 47, 0.95);
+    }
+    .Burger {
+        color: violet;
+        display: inline;
+    }
+}
