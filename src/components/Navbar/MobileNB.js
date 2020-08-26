@@ -17,7 +17,7 @@ const MobileNB = () => {
 
     return (
         <div>
-            <Navbar color="faded" light fixed="top" className="mobile_nav">
+            <Navbar light fixed="bottom" className="mobile_nav">
                 <NavbarToggler onClick={toggleNavbar} className="mr-2"/>
                 <Collapse isOpen={!collapsed} navbar >
                     <Nav navbar>
