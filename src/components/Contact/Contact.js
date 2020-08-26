@@ -14,8 +14,7 @@ const Contact = () => {
         <div>
             <h1 id="contact" className="heading">Contact Me</h1>
             <div className="item">
-                <Button color="success" onClick={handleClick}>Email Me</Button>
-                <p>Skype: live:isuslov_1</p>
+                <Button color="success" size="lg" block onClick={handleClick} >SEND AN EMAIL</Button>
             </div>
         </div>
     )

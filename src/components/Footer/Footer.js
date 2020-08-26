@@ -16,7 +16,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={['fab', 'vk']} />
             </a>
             <a href='https://www.linkedin.com/in/ilia-suslov/' target="_blank" rel="noopener noreferrer" className="logo">
-                <FontAwesomeIcon icon={['fab', 'linkedin']} aria-hidden="true"/>
+                <FontAwesomeIcon icon={['fab', 'linkedin']}/>
             </a>
         </div>
     )
