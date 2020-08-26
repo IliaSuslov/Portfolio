@@ -1,8 +1,8 @@
      .body {
-       height: 60.5rem;
        grid-area: h;
        background: black;
        border-bottom: 1px solid #7510F7;
+       padding-bottom: 10%;
      }
 
      .text {

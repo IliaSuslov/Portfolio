@@ -17,7 +17,7 @@ const useViewport = () => {
 const Navigation = () => {
 
     const { width } = useViewport();
-    const breakpoint = 1100;
+    const breakpoint = 1600;
 
     return width < breakpoint ? <MobileNB /> : <DesktopNB />;
 }
