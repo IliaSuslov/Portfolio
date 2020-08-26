@@ -13,7 +13,7 @@ const Contact = () => {
     return (
         <div>
             <h1 id="contact" className="heading">Contact Me</h1>
-            <div className="item">
+            <div className="contact_button">
                 <Button color="success" size="lg" block onClick={handleClick} >SEND AN EMAIL</Button>
             </div>
         </div>

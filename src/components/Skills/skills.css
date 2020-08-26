@@ -3,6 +3,13 @@
     margin-bottom: 5%;
 }
 
+.item {
+    text-align: center;
+    font-size: 34;
+    color: white;
+    font-weight: 500;
+}
+
 .item_left {
     vertical-align: top;
     width: 30%;
