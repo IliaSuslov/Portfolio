@@ -5,9 +5,10 @@ import mt from "./img/mt1.jpg"
 import "./works.css"
 
 const works = [
-    { id: "1", title: "Monitoring-transporta", work: "Landing Website", img: mt, addr: "http://monitoring-transporta.online", status: "disabled", perm: "Private" },
-    { id: "2", title: "Social Web", work: "Social Web for React devs", img: mt, addr: "", github: "", status: "primary", perm: "Github" },
-    { id: "3", title: "Small Projects", work: "Small Projects for practice", addr: "/sprojects", status: "primary", perm: "Github" },
+    { id: "1", title: "Monitoring-transporta", work: "Landing Website (Desktop ver. only)", img: mt, addr: "http://monitoring-transporta.online", status: "disabled", perm: "Private" },
+    // { id: "2", title: "Social Web", work: "Social Web for React devs", img: mt, addr: "", github: "", status: "primary", perm: "Github" },
+    { id: "3", title: "Gym APP", work: "University Team project (React Native)", addr: "https://www.figma.com/file/KsjtoVos5CUMnOvzqE8nzJUH/Gym-App", github: "https://github.com/IliaSuslov/gymapp", status: "primary", perm: "Github" },
+    { id: "4", title: "Small Projects", work: "Small Projects for practice", addr: "/sprojects", status: "primary", perm: "Github" },
 ]
 
 const WorkList = works.map((works) => (
