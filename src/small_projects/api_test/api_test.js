@@ -9,7 +9,7 @@ const ApiTest = () => {
     const [books, setBooks] = useState([])
 
     useEffect(() => {
-        let url = "https://the-one-api.herokuapp.com/v1/";
+        let url = "https://the-one-api.dev/v2/";
 
         fetch(url + "movie", {
             headers: {
@@ -45,7 +45,7 @@ const ApiTest = () => {
     else if (!isLoaded) { return <div>Loading...</div> }
     else return (
         <div>
-            <h1>"The <b>ONE</b> API" test (https://the-one-api.herokuapp.com/)</h1>
+            <h1>"The <b>ONE</b> API" test (https://the-one-api.dev/)</h1>
             <h2>LOTR Films</h2>
             {movies.map(m =>
                 <div className="list" key={m._id}>

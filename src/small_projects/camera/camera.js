@@ -8,6 +8,7 @@ function CameraWeb() {
     }
     return (
         <div>
+            <h1>Camera usage for Web & Mobile device</h1>
             <label>
                 <input
                     type='file'
