@@ -8,7 +8,7 @@ const works = [
     { id: "1", title: "Portfolio", work: "My Portfolio, what you are looking at rn", addr: "", github: "https://github.com/IliaSuslov/portfolio", status: "primary", perm: "Github" },
     { id: "2", title: "Monitoring-transporta", work: "Landing Website (Desktop ver. only)", img: mt, addr: "http://monitoring-transporta.online", status: "disabled", perm: "Private" },
     // { id: "3", title: "Social Web", work: "Social Web for React devs", img: mt, addr: "", github: "", status: "primary", perm: "Github" },
-    { id: "4", title: "Gym APP", work: "University Team project (React Native)", addr: "https://www.figma.com/file/KsjtoVos5CUMnOvzqE8nzJUH/Gym-App", github: "https://github.com/IliaSuslov/gymapp", status: "primary", perm: "Github" },
+    { id: "4", title: "Gym APP", work: "University Team project (React Native)", addr: "https://www.figma.com/file/KsjtoVos5CUMnOvzqE8nzJUH/Gym-App?node-id=0%3A1", github: "https://github.com/IliaSuslov/gymapp", status: "primary", perm: "Github" },
     { id: "5", title: "Small Projects", work: "Small Projects for practice", addr: "/sprojects", status: "primary", perm: "Github" },
 ]
 
