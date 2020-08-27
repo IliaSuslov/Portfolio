@@ -2,6 +2,8 @@ import React from 'react'
 import { Button } from 'reactstrap';
 import "./contact.css"
 import "../../App.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
 
@@ -12,9 +14,10 @@ const Contact = () => {
 
     return (
         <div>
-            <h1 id="contact" className="heading">Contact Me</h1>
             <div className="contact_button">
-                <Button color="success" size="lg" block onClick={handleClick} >SEND AN EMAIL</Button>
+                <Button color="success" size="lg" onClick={handleClick} >
+                    <FontAwesomeIcon icon={faEnvelope} />
+                </Button>
             </div>
         </div>
     )

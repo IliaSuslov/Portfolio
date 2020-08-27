@@ -9,7 +9,6 @@ const DesktopNB = () => {
                 <a href="#about">About Me</a>
                 <a href="#skills">Skills</a>
                 <a href="#works">Works</a>
-                <a href="#contact">Contact Me</a>
             </nav>
         </header>
     )

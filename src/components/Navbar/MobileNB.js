@@ -18,7 +18,7 @@ const MobileNB = () => {
     return (
         <div>
             <Navbar dark fixed="top" className="mobile_nav">
-                <NavbarToggler onClick={toggleNavbar} className="mr-2"/>
+                <NavbarToggler onClick={toggleNavbar} className="mr-2" />
                 <Collapse isOpen={!collapsed} navbar >
                     <Nav navbar>
                         <NavItem className="nav_link">
@@ -32,9 +32,6 @@ const MobileNB = () => {
                         </NavItem>
                         <NavItem>
                             <NavLink href="#works" className="nav_link" onClick={toggleNavbar}>Works</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#contact" className="nav_link" onClick={toggleNavbar}>Contact Me</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

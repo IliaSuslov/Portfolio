@@ -1,4 +1,7 @@
 .contact_button {
-    text-align: center;
+    bottom: 0;
+    right: 0;
+    position: fixed;
     padding-bottom: 5%;
+    padding-right: 5%;
 }
