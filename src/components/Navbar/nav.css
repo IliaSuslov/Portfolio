@@ -22,7 +22,7 @@ header {
     color: white !important;
 }
 
-.Nav a {
+.Nav a, span {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
